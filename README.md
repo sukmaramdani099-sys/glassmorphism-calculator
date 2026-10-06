@@ -2,7 +2,7 @@
 
 Sebuah aplikasi web kalkulator sederhana dengan desain antarmuka modern menggunakan efek **Glassmorphism** dan **Dark Mode**. Dibuat murni menggunakan HTML, CSS, dan Vanilla JavaScript.
 
-![Kalkulator Preview](https://via.placeholder.com/800x400.png?text=Screenshot+Kalkulator+Glassmorphism+Anda+Nanti)
+![Kalkulator Preview]([https://via.placeholder.com/800x400.png?text=Screenshot+Kalkulator+Glassmorphism+Anda+Nanti](https://sukmaramdani099-sys.github.io/glassmorphism-calculator/))
 
 ## ✨ Fitur Utama
 *   **Desain Modern:** Menggunakan efek kaca transparan (backdrop-filter) yang elegan.
