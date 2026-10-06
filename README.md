@@ -16,7 +16,7 @@ Sebuah aplikasi web kalkulator sederhana dengan desain antarmuka modern mengguna
 *   **JavaScript (ES6)** (Logika DOM Manipulation)
 
 ## 🚀 Cara Menjalankan Secara Lokal
-1. Clone repository ini: `git clone https://github.com/username-anda/nama-repo.git`
+1. Clone repository ini: `git clone https://github.com/sukmaramdani099-sys/glassmorphism-calculator`
 2. Buka file `index.html` di browser Anda, atau gunakan ekstensi **Live Server** di VS Code.
 
 ---
