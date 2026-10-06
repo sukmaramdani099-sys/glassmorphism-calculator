@@ -1,0 +1,102 @@
+/* Reset margin dan pading bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background gelap untuk kesuluruhan halaman */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    background-image: linear-gradient(135deg, #1e1e1e 0%, #0a0a0a 100%);
+    color: #ffffff;
+
+}
+
+.calculator {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0,1);
+    padding: 25px;
+    border-radius: 20px; 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    width: 320px;
+}
+
+.display {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 25px 20px;
+    font-size: 2.5rem;
+    text-align: right;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    letter-spacing: 2px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0,1);
+    color: #ffffff;
+    padding: 18px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.operator {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffb74d;
+    border-color: rgba(255, 255, 0, 0.02);
+}
+
+.operator:hover {
+    background: rgba(255,152, 0, 0.25);  
+}
+
+.clear {
+    background: rgba(244, 67, 54, 0.15);
+    color: #e57373;
+    border-color: rgba(244, 67, 54, 0.02);
+    grid-column: span 3;
+}
+
+.clear:hover {
+    background: rgba(244, 67, 54, 0.25);
+}
+
+.equal{
+    background: rgba(76, 175, 80, 0.15);
+    color: #81c784;
+    border-color: rgba(76, 175, 80, 0.2);
+}
+
+.equal:hover {
+    background: rgba(76, 175, 80, 0.25);
+}
+
+.zero {
+    grid-column: span 2;
+}
